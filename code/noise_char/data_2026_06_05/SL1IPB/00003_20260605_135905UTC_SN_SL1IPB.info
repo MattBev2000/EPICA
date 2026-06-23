@@ -1,0 +1,42 @@
+Version  testDMA : v0.12fra 
+Shot : 3 
+File : voltage_0V.csv 
+FPGA ver : 03.18
+ 
+0) Addr: 0, SN: SL1R9H, BOARD CODE: A 
+0) VerFW: 1.0, VerFPGA: 3.2.1c 
+1) Addr: 10, SN: SL1R9L, BOARD CODE: A 
+1) VerFW: 1.0, VerFPGA: 3.2.1c 
+2) Addr: 20, SN: SL1R9K, BOARD CODE: A 
+2) VerFW: 1.0, VerFPGA: 3.2.1c 
+3) Addr: 30, SN: SL1R9G, BOARD CODE: A 
+3) VerFW: 1.0, VerFPGA: 3.2.1c 
+4) Addr: 40, SN: SL1R9J, BOARD CODE: A 
+4) VerFW: 1.0, VerFPGA: 3.2.1c 
+5) Addr: 50, SN: SL1R9O, BOARD CODE: A 
+5) VerFW: 1.0, VerFPGA: 3.2.1c 
+6) Addr: 60, SN: SL23DK, BOARD CODE: A 
+6) VerFW: 1.0, VerFPGA: 3.2.25 
+7) Addr: 70, SN: SL23DL, BOARD CODE: A 
+7) VerFW: 1.0, VerFPGA: 3.2.25 
+
+N CH : 16 ( N SLOT FOUND: 8) 
+TIME (ms) : 1489 
+Freq Campionamento : 39062 
+Decimatore : 512  
+Config IDX : 1  
+Shunt A,B : 10mA 10mA 
+N SAMPLE 1 CH (PTS) : 58163 
+N SAMPLE ALL CH (PTS) : 930608 
+N BYTE ALL CH : 3722432 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

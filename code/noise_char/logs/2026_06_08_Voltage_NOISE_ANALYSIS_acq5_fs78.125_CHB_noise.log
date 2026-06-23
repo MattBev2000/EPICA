@@ -1,0 +1,25 @@
+NOISE ANALYSIS RECAP
+Generated: 2026-06-12 07:11:01
+Label: CHB acq 5
+Quantity: Voltage [V]
+
+Samples: 116328
+Mean [V]: 0.003909136692
+Signal RMS [Vrms]: 0.003909136717
+Noise RMS / std [Vrms]: 4.437995169e-07
+Measured data step [V]: 3.986e-07
+Quantization LSB used [V]: 3.986e-07
+Full-scale range [V]: 0.0261226496
+Full-scale range as pm half-range [V]: pm0.01 V
+Ideal 16-bit quantization noise [Vrms]: 1.150659086e-07
+Reference ENOB: 14.2
+Reference noise RMS [Vrms]: 4.006827664e-07
+Estimated ENOB from noise: 14.05255236
+ENOB delta vs reference: -0.1474476373
+Effective resolution from estimated ENOB [V]: 1.537366623e-06
+Effective resolution from reference ENOB [V]: 1.388005818e-06
+Noise / reference noise: 1.107608198
+Levels: 10
+Min [V]: 0.0039074758
+Max [V]: 0.0039110632
+Peak-to-peak [V]: 3.5874e-06

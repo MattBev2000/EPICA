@@ -1,0 +1,9 @@
+# x_unit=ms
+# x_max=100
+# num_steps=100
+# intrinsic_delay_us=62
+0	0	0	0	0
+25	0	0	250	120
+50	1	0	0	0
+75	1	0	250	120
+100	1	0	0	0

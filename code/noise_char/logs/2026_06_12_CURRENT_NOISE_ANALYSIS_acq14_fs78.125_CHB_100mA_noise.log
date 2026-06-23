@@ -1,0 +1,27 @@
+NOISE ANALYSIS RECAP
+Generated: 2026-06-12 12:01:10
+Label: CHB acq 14
+Quantity: Current [mA]
+Current FSR: 100mA
+Current FSR range [mA]: pm127.99 mA
+
+Samples: 22578
+Mean [mA]: 0.0003354475153
+Signal RMS [mArms]: 0.004910712682
+Noise RMS / std [mArms]: 0.004899242188
+Measured data step [mA]: 0.003906
+Quantization LSB used [mA]: 0.003906
+Full-scale range [mA]: 255.983616
+Full-scale range as pm half-range [mA]: pm127.99 mA
+Ideal 16-bit quantization noise [mArms]: 0.001127565076
+Reference ENOB: 14.2
+Reference noise RMS [mArms]: 0.003926409647
+Estimated ENOB from noise: 13.88065209
+ENOB delta vs reference: -0.3193479123
+Effective resolution from estimated ENOB [mA]: 0.01697147278
+Effective resolution from reference ENOB [mA]: 0.013601482
+Noise / reference noise: 1.24776644
+Levels: 9
+Min [mA]: -0.015624
+Max [mA]: 0.015624
+Peak-to-peak [mA]: 0.031248
