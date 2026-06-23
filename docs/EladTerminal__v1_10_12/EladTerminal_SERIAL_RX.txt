@@ -1,0 +1,20 @@
+abilitazione                                                   |   |@81T0000<CR>
+disabilitazione                                                |   |@81T2222<CR>
+spento (V0000)                                                 |   |@01V$30$30$30$30<CR>
+100 Vout (0x03E8)                                              |   |@01V$30$33$3E$38<CR>
+150 Vout (0x05DC)                                              |   |@01V$30$35$3D$3C<CR>
+200 Vout (0x07D0)                                              |   |@01V$30$37$3D$30<CR>
+                                                               |   |@60S0000<CR>
+                                                               |   |@60S0801<CR>
+                                                               |   |@01D$30$35$31$34<CR>
+                                                               |   |@01X$3D$3000<CR>
+imposta duty cycle al 10  manuale                              |   |@01D$3D$30$30$30<CR>
+versione firmware (del micro)                                  |   |@09VSM;<CR>
+hardware info                                                  |   |@09HI;<CR>
+stato dei relè                                                 |   |@00RL;<CR>
+spegne tutti i relè                                            |   |@00RL0|0000;<CR>
+accende RL1 (cmd_rl1): bias + sonda 1 e 3                      |   |@09RL1|1000;<CR>
+accende RL2 (cmd_rl2): bias + sonda 2 e 4                      |   |@00RL2|0100;<CR>
+accende RL3 e RL4 (cmd_rl3): bias - sonda 5 (con lettura shunt)|   |@00RL3|xx1x;<CR>
+accende RL5 (cmd_rl5): cambio portata shunt (8.3 ohm o 3.3 ohm)|   |@09RL4|0001;<CR>
+accende tutti i relè                                           |   |@00RL0|1111;<CR>

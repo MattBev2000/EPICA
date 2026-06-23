@@ -1,0 +1,20 @@
+Richiesta Info HW e versione FW per la scheda all'indirizzo 0 (AS20P2)                  |   |@09HI;VSM;<CR>
+Richiesta Info HW e versione FW per la scheda all'indirizzo 1 (AS20P2)                  |   |@19HI;VSM;<CR>
+Richiesta Info HW e versione FW per la scheda all'indirizzo x (AS20P2)                  |   |@x9HI;VSM;<CR>
+Richiesta Info HW e versione FW per la scheda all'indirizzo 7 (AS20P2)                  |   |@79HI;VSM;<CR>
+Richiesta Info HW e versione FW per la scheda all'indirizzo 8 (TICK)                    |   |@89HI;VSM;<CR>
+                                                                                        |   |
+Richiesta risposta per lo slave 0 all'indirizzo 6  (micro, quindi risposta Standard)    |   |@60A0000<CR>
+Richiesta risposta per lo slave 1 all'indirizzo 6  (FPGA)                               |   |@61A0000<CR>
+                                                                                        |   |
+Pilotaggio LED (del micro) all'indirizzo 6, lampeggio alternato                         |   |@60L1011<CR>
+                                                                                        |   |
+Pilotaggio FrontEnd all'indirizzo 6, shunt a 1mA, config 1                              |   |@60F0001<CR>
+Pilotaggio FrontEnd all'indirizzo 6, shunt a 100mA, config 3                            |   |@60F0223<CR>
+Pilotaggio FrontEnd all'indirizzo 6, shunt a 100mA, config 5, segnali ingresso invertiti|   |@60F3225<CR>
+                                                                                        |   |
+                                                                                        |   |
+                                                                                        |   |
+                                                                                        |   |
+                                                                                        |   |
+                                                                                        |   |
