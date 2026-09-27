@@ -1,0 +1,10 @@
+The Kria K26 SoM enables tight integration between hardware-programmable logic and embedded software. A Linux-based operating system running on the ARM processing cores manages the interaction between custom FPGA modules and user-space applications, providing a unified framework for data acquisition and control. The hardware–software platform is organized as a multi-layer architecture, comprising bare-metal firmware for low-level hardware management, C/C++ drivers and middleware for system services, and a high-level API that exposes the system functionality to user applications.
+
+The bottom layer consists of the bare-metal firmware running on the FPGA, which implements the fundamental Register Transfer Level (RTL) building blocks, written in Hardware Descriptive Language (HDL), and exposes the memory-mapped registers used for system configuration and control.
+
+The middleware layer provides the coordination and control mechanisms required to manage the execution of system tasks and the communication between lower-level components and the high-level application interface.These functionalities are implemented using the MARTe2 real-time framework, which provides the infrastructure required for deterministic task scheduling, data exchange, and system supervision. Dedicated custom drivers are implemented to access the memory-mapped registers and read data from the FPGA. 
+
+The high-level API constitutes the top layer of the software stack and exposes the system functionalities to the user. It provides a user-oriented interface through a set of high-level functions that enable data management, storage, and post-processing, while abstracting the complexity of the underlying hardware and software layers.
+
+
+

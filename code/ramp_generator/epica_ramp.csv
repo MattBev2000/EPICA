@@ -1,0 +1,10 @@
+enable,pol,load,pre,pwm,pwm4e,pwm4q,step,note
+1,1,0,0,0,0,0,0,start
+1,1,0,0,0,0,0,1,
+1,1,0,210,200,0,0,60,negative ramp
+1,1,0,0,0,0,0,60,return to zero
+1,1,0,0,0,0,0,4,zero hold
+1,0,0,0,0,0,0,1,polarity change
+1,0,0,210,200,0,0,60,positive ramp
+1,0,0,0,0,0,0,60,return to zero
+1,0,0,0,0,0,0,4,final hold

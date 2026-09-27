@@ -1,0 +1,108 @@
+{
+  "actual_fit_current_range_a": [
+    -0.000701536,
+    0.0005763755999999999
+  ],
+  "actual_fit_voltage_range_v": [
+    -98.212825,
+    -20.004044999999998
+  ],
+  "alpha": 4.031653439796294,
+  "analysis_scope": "functional verification of acquisition and analysis workflow",
+  "created_at": "2026-09-23T12:22:29",
+  "current_range": null,
+  "dataset_name": "2026_05_14_SLP_ACQ10",
+  "electron_density_m-3": 7.81617134020939e+16,
+  "electron_temperature_ev": 4.5331006930463555,
+  "experimental_metadata": {
+    "discharge_method": "not available",
+    "discharge_power_or_current": "not available",
+    "facility_or_source": "laboratory plasma test; further source details not available",
+    "gas_pressure": "not available",
+    "probe_area_m2": 2.01e-06,
+    "probe_geometry": "exposed collection area available; further dimensions not available",
+    "probe_location": "not available",
+    "reference_diagnostic": "not available",
+    "working_gas": "Helium"
+  },
+  "fit_covariance": [
+    [
+      0.001096828300127899,
+      2.308799985998306e-08,
+      -0.0008778843380503533,
+      5.4155362529537556e-06
+    ],
+    [
+      2.308799985998306e-08,
+      8.680766515210996e-13,
+      -6.032590812626045e-09,
+      2.096641150988606e-10
+    ],
+    [
+      -0.0008778843380503533,
+      -6.032590812626045e-09,
+      0.0011943600408670166,
+      -1.1139828641986768e-06
+    ],
+    [
+      5.4155362529537556e-06,
+      2.096641150988606e-10,
+      -1.1139828641986768e-06,
+      5.384896774747711e-08
+    ]
+  ],
+  "fit_diagnostics": {
+    "degrees_of_freedom": 3739,
+    "mae_a": 1.1260944619422878e-05,
+    "maximum_absolute_residual_a": 0.00045142367876995653,
+    "parameter_count": 4,
+    "residual_standard_deviation_a": 1.926776878971207e-05,
+    "residual_sum_squares_a2": 1.388092211946288e-06,
+    "rmse_a": 1.9257470676314908e-05,
+    "sample_count": 3743
+  },
+  "fit_parameter_standard_errors": {
+    "Is_A": 9.31706311839251e-07,
+    "R": 0.000232053803561754,
+    "Te_eV": 0.03311839821198934,
+    "Vf_V": 0.03455951447672575
+  },
+  "fit_parameters": {
+    "Is_A": 0.00013123348915949017,
+    "R": -0.01312233686307166,
+    "Te_eV": 4.5331006930463555,
+    "Vf_V": -27.67060326964407
+  },
+  "fit_r2": 0.9890906106296314,
+  "fit_selection_method": "manual voltage limits",
+  "floating_potential_v": -27.67060326964407,
+  "fraction_of_samples_fitted": 0.331591070163005,
+  "independent_plasma_validation_available": false,
+  "initial_parameters": {
+    "Is_A": -0.0002403558,
+    "R": 0.0,
+    "Te_eV": 2.0,
+    "Vf_V": -26.95608
+  },
+  "interpretation_note": "The fitted plasma parameters are model-dependent estimates. They are reported to demonstrate the acquisition and analysis workflow and were not independently validated against a reference diagnostic.",
+  "ion_mass_amu": 4.0,
+  "ion_mass_kg": 6.68e-27,
+  "ion_saturation_current_a": 0.00013123348915949017,
+  "plasma_potential_v": -9.394712267580765,
+  "probe_area_m2": 2.01e-06,
+  "probe_area_mm2": 2.01,
+  "probe_configuration": "single",
+  "requested_current_range_a": null,
+  "requested_voltage_range_v": [
+    -100.0,
+    -20.0
+  ],
+  "samples_available": 11288,
+  "samples_fitted": 3743,
+  "slope_correction_r": -0.01312233686307166,
+  "sound_speed_m_s-1": 10427.20268549022,
+  "voltage_range": [
+    -100.0,
+    -20.0
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/c:\\Users\\bevilacqua\\Documents\\missions\\IEEE_RTC_elba\\papero\\main.aux": true,
+        "**/c:\\Users\\bevilacqua\\Documents\\missions\\IEEE_RTC_elba\\papero\\main.log": true,
+        "**/c:\\Users\\bevilacqua\\Documents\\missions\\IEEE_RTC_elba\\papero\\main.gz": true,
+        "**/c:\\Users\\bevilacqua\\Documents\\missions\\IEEE_RTC_elba\\papero\\main.out": true
+    }
+}

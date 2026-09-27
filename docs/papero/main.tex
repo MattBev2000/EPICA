@@ -1,0 +1,80 @@
+\documentclass{IEEEtran}
+\usepackage{xcolor}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp,nicefrac}
+\usepackage[pdfa]{hyperref}
+\usepackage[a-2b,mathxmp]{pdfx}\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{amsfonts}
+\usepackage{harmony}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{makecell}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{booktabs}
+
+\newcommand{\Cels}{^{\circ}C}
+\newcommand{\half}{\frac{1}{2}}
+\newcommand{\measure}[2]{\ensuremath{#1 \, \mathrm{#2}}}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\markboth{IEEE TRANSACTIONS ON NUCLEAR SCIENCE, VOL. XX, NO. XX, XXXX 2025}
+{Author \MakeLowercase{\textit{et al.}}: Preparation of Papers for	Review by the \textsc{IEEE Transactions on Nuclear Science} \newline (Jan 2025)}
+
+\begin{document}
+	
+	\title{An integrated biasing power supply, control and acquisition system for large Langmuir probe arrays in cold plasmas}
+	\author{M. Bevilacqua$^{1,3}$, R. Cavazzana$^{1}$, S. Spagnolo$^{1,2}$, M. Spolaore$^{1,2}$, G. Manduchi$^{1}$, N. Ferron$^{1}$, B. Segalini$^{1}$, F. Milan$^{4}$, R. Pasqualotto$^{1,2}$
+		
+		\thanks{$^1$Consorzio RFX (CNR, ENEA, INFN, Università di Padova, Acciaierie Venete SpA)}
+		\thanks{$^2$ISTP - Istituto per la Scienza e Tecnologia dei Plasmi, Padova, Italy}
+		\thanks{$^3$Centro Ricerche Fusione (CRF) – University of Padova, 35131 Padova, Italy}
+		\thanks{$^4$ELAD srl - 33070 Caneva (PN), Italy}
+	}
+	\maketitle
+	
+	\begin{abstract}
+		Large Langmuir probe arrays are widely employed in plasma diagnostics for fusion devices, where synchronized acquisition and scalable instrumentation architectures are required. A representative example is MITICA, the full-scale neutral beam injector prototype for ITER, which foresees more than 200 distributed electrostatic probe measurements along the beam line. This work presents EPICA, an integrated power supply, control, and data acquisition platform specifically developed to address the scalability limitations of conventional Langmuir probe systems based on centralized laboratory instrumentation. Unlike traditional architectures, EPICA integrates the complete measurement chain, including probe bias generation, signal conditioning, acquisition, and processing, within distributed probe modules. This approach significantly reduces wiring complexity, eliminates the need for centralized bias supplies, and enables straightforward scaling to large probe arrays. The system is based on a modular architecture employing automotive-grade System-on-Module technology that combines FPGA fabric and ARM processing cores, enabling deterministic real-time control and data processing. A custom Linux distribution, integrated with the MARTe2 framework, provides supervisory control and data management, while synchronization is achieved through either a dedicated timing system or the Precision Time Protocol (PTP). The platform supports floating-potential, single-probe, and double-probe configurations and operates over plasma conditions relevant to MITICA. Experimental validation demonstrated compliance with the measurement requirements defined for MITICA operation, confirming the suitability of the proposed architecture for large-scale Langmuir probe diagnostics in fusion-relevant environments.
+		
+	\end{abstract}
+	
+	\begin{IEEEkeywords}
+		Acquisition Systems, Analogue Electronics, Digital Electronics, FPGAs, Fusion, Langmuir Probes
+	\end{IEEEkeywords}
+	
+	\section{Introduction} \label{secI}
+	\input{intro}
+	
+	\section{EPICA architecture} \label{secII}
+	\input{description}
+	
+	\section{Integrated Polarization and Acquisition module} \label{secIII}
+	\input{module}
+	
+	\section{Hardware-Software Integration} \label{secIV}
+	\input{rtos}
+	
+	\section{System Validation} \label{secV}
+	\input{setup}
+	
+	\section{Results Discussion} \label{secVI}
+	\input{results}
+	
+	\section{Conclusion} \label{secVII}
+	\input{conc}
+	
+	% \section*{References}
+	\input{refs}
+	
+\end{document}

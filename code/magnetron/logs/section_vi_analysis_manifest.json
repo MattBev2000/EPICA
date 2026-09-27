@@ -1,0 +1,57 @@
+{
+  "analysis_scope": "functional verification of acquisition and analysis workflow",
+  "experimental_metadata": {
+    "facility_or_source": "laboratory plasma test; further source details not available",
+    "discharge_method": "not available",
+    "working_gas": "Helium",
+    "gas_pressure": "not available",
+    "discharge_power_or_current": "not available",
+    "probe_location": "not available",
+    "probe_geometry": "exposed collection area available; further dimensions not available",
+    "probe_area_m2": 2.01e-06,
+    "reference_diagnostic": "not available"
+  },
+  "floating_potential_measurement": {
+    "dataset": "2026_05_14_SLP_ACQ1",
+    "mean_voltage_v": 26.17756110517591,
+    "rms_voltage_fluctuation_v": 1.8106971034924686
+  },
+  "single_probe_fit": {
+    "dataset": "2026_05_14_SLP_ACQ10",
+    "selection_method": "manual voltage limits",
+    "requested_voltage_range_v": [
+      -100.0,
+      -20.0
+    ],
+    "actual_voltage_range_v": [
+      -98.212825,
+      -20.004044999999998
+    ],
+    "samples_available": 11288,
+    "samples_fitted": 3743,
+    "fit_parameters": {
+      "Te_eV": 4.5331006930463555,
+      "Is_A": 0.00013123348915949017,
+      "Vf_V": -27.67060326964407,
+      "R": -0.01312233686307166
+    },
+    "parameter_standard_errors": {
+      "Te_eV": 0.03311839821198934,
+      "Is_A": 9.31706311839251e-07,
+      "Vf_V": 0.03455951447672575,
+      "R": 0.000232053803561754
+    },
+    "fit_diagnostics": {
+      "sample_count": 3743,
+      "parameter_count": 4,
+      "degrees_of_freedom": 3739,
+      "rmse_a": 1.9257470676314908e-05,
+      "mae_a": 1.1260944619422878e-05,
+      "maximum_absolute_residual_a": 0.00045142367876995653,
+      "residual_sum_squares_a2": 1.388092211946288e-06,
+      "residual_standard_deviation_a": 1.926776878971207e-05
+    },
+    "r_squared": 0.9890906106296314,
+    "interpretation_note": "The fitted plasma parameters are model-dependent estimates. They are reported to demonstrate the acquisition and analysis workflow and were not independently validated against a reference diagnostic."
+  }
+}
