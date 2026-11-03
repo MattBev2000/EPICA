@@ -1,2 +1,5 @@
 
 docs/petalinux-sdimage.zip
+*.wic
+*.bsp
+*.run
